@@ -1,10 +1,19 @@
-def sum_of_digits():
-    n = int(input("Nhap mot so nguyen duong: "))
-    y = 0
-
-    for i in range(1, n + 1):
-        if n % i == 0:
-             y += i
-    print(f"tong cac uoc so {n} la: {y}")
-
-sum_of_digits()
+def an():
+    a = int(input("Nhap so a"))
+    b = int(input("Nhap so b "))
+    print(f"a cong b ={a+b}")
+    print(f"a tru b ={a-b}")
+    print(f"a nhan b ={a*b}")
+    print(f"a chia b ={a/b}")
+    print(f"a chia b lay nguyen ={a//b}")
+    print(f"a mu b ={a**b}")
+    print(f"a chia du b={a%b}")
+    print(f"a lon hon b={a>b}")
+    print(f"a nho hon b={a<b}")
+    print(f"a AND b={a&b}")
+    print(f"a OR b={a | b}")
+    print(f"a XOR b={a^b}")
+    print(f"NOT a == b: {not a != b }")
+    print(f"a dich sang phai 1 don vi ={a<<1}")
+    print(f"a dich sang trai 1 don vi ={a>>1}")
+an()
